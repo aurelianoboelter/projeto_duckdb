@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "projeto-duckdb"
 version = "0.1.0"
+package-mode = false
 description = ""
 authors = ["Aurelio <aurelio.boelter@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.11,<3.12"
 streamlit = "^1.50.0"
 
 
